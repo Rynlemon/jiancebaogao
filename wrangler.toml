@@ -1,0 +1,6 @@
+name = "jiancebaogao"  # Worker 名称
+type = "javascript"      # Worker 脚本语言：可以是 "javascript" 或 "rust"
+main = "worker.js"
+compatibility_date = "2025-03-05"  # 这个字段是必须的
+[build]
+command = "npm run build"  # 如果没有构建步骤，可以删除这一行
